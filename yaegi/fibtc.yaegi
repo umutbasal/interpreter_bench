@@ -1,4 +1,4 @@
-package main
+package yaegi
 
 func fibtc(n, a, b int) int {
 	if n == 0 {
@@ -8,8 +8,4 @@ func fibtc(n, a, b int) int {
 	} else {
 		return fibtc(n-1, b, a+b)
 	}
-}
-
-func main() {
-	fibtc(35, 0, 1)
 }

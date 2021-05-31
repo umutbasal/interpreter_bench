@@ -1,4 +1,4 @@
-package main
+package yaegi
 
 func fib(n int) int {
 	if n == 0 {
@@ -8,8 +8,4 @@ func fib(n int) int {
 	} else {
 		return fib(n-1) + fib(n-2)
 	}
-}
-
-func main() {
-	fib(35)
 }
