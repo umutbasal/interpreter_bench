@@ -6,5 +6,3 @@ function fib(n)
     end
     return fib(n-1) + fib(n-2)
 end
-
-fib(35)
